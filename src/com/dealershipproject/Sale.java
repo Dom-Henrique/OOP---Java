@@ -1,13 +1,16 @@
 package com.dealershipproject;
 import java.time.LocalDate;
 
+import java.time.LocalDate;
+
 public class Sale {
     private String paymentMethod;
     private LocalDate saleDate;
     private double saleValue;
     Vehicle vehicle;
     Customer customer;
-    public Sale(String paymentMethod, LocalDate saleDate, double saleValue, Vehicle vehicle, Customer customer){
+
+    public Sale(String paymentMethod, LocalDate saleDate, double saleValue, Vehicle vehicle, Customer customer) {
         this.paymentMethod = paymentMethod;
         this.saleDate = saleDate;
         this.saleValue = saleValue;
